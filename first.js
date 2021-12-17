@@ -36,9 +36,7 @@ function getTemperature(){
 
     click();
 
-    
-
-    // Counterin ollessa parillinen näytetään lämpötila
+    // Counterin ollessa parillinen näytetään lämpötila ja kuvake
     // Muuten näytetään otsikkoteksti
     if (clicks1 % 2 == 0) {
         document.getElementById("temp-text").style.display = "block"
@@ -81,7 +79,7 @@ function getDescription(){
 
     click();
 
-    // Counterin ollessa parillinen näytetään kuvaus
+    // Counterin ollessa parillinen näytetään kuvaus ja kuvake
     // Muuten näytetään otsikkoteksti
     if (clicks2 % 2 == 0) {
         document.getElementById("desc-text").style.display = "block"
@@ -122,7 +120,7 @@ function getWind(){
 
     click();
 
-    // Counterin ollessa parillinen näytetään tuulen nopeus
+    // Counterin ollessa parillinen näytetään tuulen nopeus ja kuvake
     // Muuten näytetään otsikkoteksti
     if (clicks3 % 2 == 0) {
         document.getElementById("wind-text").style.display = "block"
