@@ -1,7 +1,9 @@
+// Counter muuttujat
 let clicks1 = 0;
 let clicks2 = 0;
 let clicks3 = 0;
 
+// Määritellään kuvakkeet näkymättömiksi
 document.getElementById("thermostat").style.display = "none"
 document.getElementById("air").style.display = "none"
 document.getElementById("cloud").style.display = "none"
