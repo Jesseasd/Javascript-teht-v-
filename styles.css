@@ -14,13 +14,17 @@ body {
     text-align: center;
     margin-top: 150px;
     font-size: 30px;
+    -webkit-text-stroke: 2px black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .grid-item1 {
     grid-column: 1/6;
     text-align: center;
     margin-bottom: 50px;
-    font-size: 30px;
+    font-size: 20px;
+    -webkit-text-stroke: 2px black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .grid-item3 {
@@ -61,33 +65,13 @@ h3 {
     font-size: 30px;
 }
 
-#thermostat {
-font-size: 100px;
-margin-top: 20px;
-}
-
-#air {
-    font-size: 100px;
-    margin-top: 20px;
-}
-
-#cloud {
+#thermostat, #air, #cloud {
     font-size: 100px;
     margin-top: 20px;
 }
 
 @media only screen and (max-width: 1126px) {
-    .grid-item3 {
-        grid-column: 2/5;
-        height: 200px;
-    }
-    
-    .grid-item4 {
-        grid-column: 2/5;
-        height: 200px;
-    }
-
-    .grid-item5 {
+    .grid-item3, .grid-item4, .grid-item5 {
         grid-column: 2/5;
         height: 200px;
     }
@@ -97,6 +81,21 @@ margin-top: 20px;
     }
 
     #temp, #desc, #wind {
-        margin-top: 100px;
+        margin-top: 20px;
+    }
+
+    #thermostat, #air, #cloud {
+        font-size: 70px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 472px) {
+    .grid-item3, .grid-item4, .grid-item5 {
+        height: 250px;
+    }
+
+    h3 {
+        margin-top: 120px;
     }
 }

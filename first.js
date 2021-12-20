@@ -49,8 +49,6 @@ function getTemperature(){
     }
 }
 
-
-
 function getDescription(){
     
     // Luodaan HTTP pyyntö
