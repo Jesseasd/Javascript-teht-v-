@@ -12,7 +12,7 @@ function getTemperature(){
     
     // Luodaan HTTP pyyntö
     let xmlhttp = new XMLHttpRequest();
-    xmlhttp.open("GET", "https://api.openweathermap.org/data/2.5/weather?q=rovaniemi&units=metric&appid=23cfeea3681cab21bd1e170d2d87f2e7", true);
+    xmlhttp.open("GET", "https://api.openweathermap.org/data/2.5/weather?q=oulu&units=metric&appid=23cfeea3681cab21bd1e170d2d87f2e7", true);
 
     // Lähetetään pyyntö
     xmlhttp.send();
